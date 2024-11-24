@@ -1,8 +1,8 @@
 {
-  "name": "@monorepo-template/functions",
+  "name": "@mutube-sst/functions",
   "version": "0.0.0",
   "dependencies": {
-    "@monorepo-template/core": "*",
+    "@mutube-sst/core": "*",
     "sst": "*"
   },
   "devDependencies": {
