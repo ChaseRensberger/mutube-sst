@@ -10,6 +10,10 @@ declare module "sst" {
       "type": "sst.aws.ApiGatewayV2"
       "url": string
     }
+    "TrackedChannels": {
+      "name": string
+      "type": "sst.aws.Dynamo"
+    }
     "Uploads": {
       "name": string
       "type": "sst.aws.Bucket"
