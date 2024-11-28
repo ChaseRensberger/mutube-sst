@@ -2,7 +2,7 @@
   "name": "@mutube-sst/scripts",
   "version": "0.0.0",
   "dependencies": {
-    "@mutube-sst/core": "*",
+    "@mutube-sst/core": "workspace:*",
     "sst": "*"
   },
   "scripts": {

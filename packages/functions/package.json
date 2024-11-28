@@ -4,7 +4,7 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.699.0",
     "@aws-sdk/lib-dynamodb": "^3.699.0",
-    "@mutube-sst/core": "*",
+    "@mutube-sst/core": "workspace:*",
     "sst": "*",
     "stripe": "^17.4.0",
     "uuid": "^11.0.3"
