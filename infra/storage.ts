@@ -7,3 +7,6 @@ export const table = new sst.aws.Dynamo("TrackedChannels", {
   },
   primaryIndex: { hashKey: "userId", rangeKey: "channelId" },
 });
+
+// export const secret = new sst.Secret("YouTubeDataApiKey");
+export const secret = new sst.Secret("StripeSecretKey");

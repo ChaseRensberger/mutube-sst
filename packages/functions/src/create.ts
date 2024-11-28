@@ -19,7 +19,7 @@ export const main = Util.handler(async (event) => {
   const params = {
     TableName: Resource.TrackedChannels.name,
     Item: {
-      userId: "123", // The id of the author
+      userId: event.requestContext.authorizer?.iam.cognitoIdentity.identityId,
       channelId: uuid.v1(), // A unique uuid
       createdAt: Date.now(), // Current Unix timestamp
     },

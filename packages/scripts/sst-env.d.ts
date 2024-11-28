@@ -14,6 +14,10 @@ declare module "sst" {
       "id": string
       "type": "sst.aws.CognitoIdentityPool"
     }
+    "StripeSecretKey": {
+      "type": "sst.sst.Secret"
+      "value": string
+    }
     "TrackedChannels": {
       "name": string
       "type": "sst.aws.Dynamo"
